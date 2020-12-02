@@ -1,0 +1,94 @@
+    a {
+        text-decoration: none;
+    }
+    
+    a:link {
+        color: blue;
+    }
+    
+    a:visited {
+        color: blue;
+    }
+    
+    #search_user {
+        background-color: #fff;
+        display: inline-block;
+        margin: 10px 20px;
+    }
+    
+    #search_user input {
+        border: 1px none;
+        padding: 10px;
+    }
+    
+    #search_user button {
+        border: 1px none;
+        padding: 10px;
+    }
+    
+    .chucnangquantri {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .chucnangquantri ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .quantringuoidung {
+        display: none;
+    }
+    
+    .quantringuoidung ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .usermanagement:hover .quantringuoidung {
+        display: block;
+    }
+    
+    .chucnangquantri a {
+        text-decoration: none;
+        display: block;
+        height: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .chucnangquantri a:hover {
+        background-color: #FFCC00;
+    }
+    
+    .function {
+        background-color: #FFFF33;
+        width: 20%;
+        height: 82vh;
+        float: left;
+    }
+    
+    .show {
+        width: 80%;
+        height: 82vh;
+        float: left;
+        background-image: url("../anhnen.jpg");
+    }
+    
+    th,
+    tr,
+    td {
+        background-color: #E6E6FA;
+        border-collapse: collapse;
+        border: 2px solid greenyellow;
+        text-align: center;
+        width: 150px;
+        height: 40px;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin: auto;
+    }
